@@ -1,0 +1,7 @@
+id=HyperGalleryEditor
+name=Hyper Gallery Editor
+version=v1.0-rr0.4
+versionCode=1
+author=Rei Ryuki the Fixer, mbenanaya
+description=Gallery Editor app by Xiaomi Inc. ported by Rei Ryuki. Requires HyperCore-A16 v1.1+ (SDK 34+, arm64-v8a).
+updateJson=https://github.com/mben25/HyperGalleryEditor/releases/latest/download/update.json
