@@ -13,6 +13,10 @@ Gallery Editor app by Xiaomi Inc. ported and integrated as a Magisk Module for a
 
 ## Changelog
 
+v1.1 (mbenanaya)
+- Update Gallery Editor arm64-v8a 1.10.0.0.6 -> 2.4.0.2.1 (stock APK, Xiaomi-signed)
+- Drop security-device-credential-sdk.jar requirement (no longer used by the app)
+
 v1.0 (mbenanaya)
 - Ported to HyperCore-A16 (`id=HyperCoreA16`, v1.1+) instead of Miui Core Magisk Module
 - Renamed module id to HyperGalleryEditor
@@ -40,7 +44,7 @@ v0.1
 - Initial release
 
 ## Requirements
-- HyperCore-A16 v1.1+ installed first (provides com.miui.core, com.miui.system, com.miui.rom, micloud-sdk, security-device-credential-sdk.jar)
+- HyperCore-A16 v1.1+ installed first (provides com.miui.core, com.miui.system, com.miui.rom, micloud-sdk)
 - arm64-v8a architecture
 - Android 14 (SDK 34) and up
 - Magisk or Kitsune Mask or KernelSU or Apatch installed
@@ -59,5 +63,4 @@ v0.1
 - https://github.com/mben25/HyperGalleryEditor/issues
 
 ## Credits and Contributors
-- Original module: Rei Ryuki the Fixer
 - HyperCore-A16 port: mbenanaya

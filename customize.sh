@@ -170,8 +170,7 @@ fi
 HCVER=`grep_prop versionCode /data/adb/modules/HyperCoreA16/module.prop`
 [ ! "$HCVER" ] && HCVER=0
 if [ "$HCVER" -lt 2 ]; then
-  ui_print "! HyperCore A16 v1.1+ required (micloud-sdk,"
-  ui_print "  security-device-credential-sdk.jar)."
+  ui_print "! HyperCore A16 v1.1+ required (micloud-sdk)."
   ui_print "  Found versionCode $HCVER."
   abort
 fi
